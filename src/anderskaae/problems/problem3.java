@@ -1,4 +1,25 @@
 package anderskaae.problems;
 
+/*
+        The prime factors of 13195 are 5, 7, 13 and 29.
+        What is the largest prime factor of the number 600851475143 ?
+ */
+
 public class problem3 {
+
+    public problem3() {
+    }
+
+    public long highestDivider() {
+        long num = 600851475143L;
+
+        for (int i = 2; i <= num / i; i++) {
+            while (num % i == 0) {
+                num = num / i;
+            }
+        }
+
+        return num;
+    }
+
 }
