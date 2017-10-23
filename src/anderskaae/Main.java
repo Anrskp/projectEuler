@@ -15,6 +15,9 @@ public class Main {
         problem3 p3 = new problem3();
         //System.out.println(p3.highestDivider());
 
+        problem4 p4 = new problem4();
+        //p4.largestPalindrome();
+
 
     }
 }
