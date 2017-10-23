@@ -16,8 +16,9 @@ public class Main {
         //System.out.println(p3.highestDivider());
 
         problem4 p4 = new problem4();
-        //p4.largestPalindrome();
+        //System.out.println(p4.largestPalindrome());
 
-
+        problem5 p5 = new problem5();
+        System.out.println(p5.smallestDivisibleBy1to20());
     }
 }
